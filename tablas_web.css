@@ -1,0 +1,46 @@
+ /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 24px;
+    text-align: center;
+}
+
+/* Tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+/* Celdas */
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Encabezados */
+th {
+    background-color: #000080;
+    color: white;
+}
+
+/* Filas pares */
+table tr:nth-child(even) {
+    background-color: #A9A9A9;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Título de la tabla */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* CSS Document */
